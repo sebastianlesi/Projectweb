@@ -45,7 +45,7 @@ class Client(object):
 
 
 if __name__ == "__main__":
-    #  create client 
+    # create client 
     client = Client()
     information = client.get_information()
     print(information)
